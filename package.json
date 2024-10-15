@@ -1,5 +1,5 @@
 {
-  "name": "braft-editor",
+  "name": "@unipus/braft-editor",
   "version": "2.3.8",
   "description": "Rich Text Editor Based On Draft.js",
   "main": "dist/index.js",
@@ -12,7 +12,10 @@
     "build-output-css": "node ./playground/webpack/scss-output.js",
     "test": "npm run lint"
   },
-  "repository": "https://github.com/margox/braft",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huakaisijiliuliu/braft-editor.git"
+  },
   "keywords": [
     "braft",
     "draft",
@@ -94,5 +97,9 @@
     "prop-types": "^15.7.2",
     "react-color": "^2.14.1",
     "uuid": "^7.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/huakaisijiliuliu/braft-editor/issues"
+  },
+  "homepage": "https://github.com/huakaisijiliuliu/braft-editor#readme"
 }
