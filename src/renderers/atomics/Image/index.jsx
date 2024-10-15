@@ -106,6 +106,10 @@ class Image extends React.Component {
       return 0;
     }
 
+    if (!this.toolbarElement) {
+      return 0;
+    }
+
     const viewRect = container
       .querySelector('.bf-content')
       .getBoundingClientRect();
